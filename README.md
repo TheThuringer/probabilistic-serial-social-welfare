@@ -3,7 +3,7 @@
 This repository contains code for simulating a multi-player fair division game under the **Probabilistic Serial (PS)** mechanism. The project checks whether players can benefit from strategic misreporting of preferences by seeking **Pure Nash Equilibria** (PNE) with higher social welfare than the truthful profile.
 
 > **Special Thanks:**  
-> We extend our gratitude to **Nick Mattei** for his invaluable guidance and insights on the topics of computational social choice and fair division.
+> I would like to extend my gratitude to **Nick Mattei** for his help in perfecting this code.
 
 ---
 
@@ -12,10 +12,6 @@ This repository contains code for simulating a multi-player fair division game u
 1. [Overview](#overview)  
 2. [Features](#features)  
 3. [Installation](#installation)  
-4. [Usage](#usage)  
-5. [File Structure](#file-structure)  
-6. [Example Results](#example-results)  
-7. [License](#license)
 
 ---
 
@@ -67,32 +63,3 @@ The code demonstrates how lying about preferences can (sometimes) yield a strict
     ```
 
 ---
-
-## Usage
-
-1. **(Optional) Adjust Parameters**  
-   Edit the bottom lines of `algorithm.py` (or whatever you named the file) to set:
-   - `NUM_ATTEMPTS` (number of random preference profiles to test)  
-   - `NUM_PLAYERS`  
-   - `NUM_ITEMS`
-
-2. **Run the Script**:
-    ```bash
-    python algorithm.py
-    ```
-   or
-    ```bash
-    python3 algorithm.py
-    ```
-
-3. **Observe the Output**:  
-   The script will:
-   - Print each attempt’s random valuations.
-   - Show the allocation and social welfare of the truthful strategy.
-   - Check for any Pure Nash Equilibria with higher social welfare.
-   - Stop early if such a PNE is found (or finish all attempts otherwise).
-
----
-
-## File Structure
-
