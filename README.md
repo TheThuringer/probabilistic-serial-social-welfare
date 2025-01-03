@@ -1,9 +1,9 @@
-# Probabilistic Serial Mechanism Exploration
+# Probabilistic Serial Mechanism
 
 This repository contains code for simulating a multi-player fair division game under the **Probabilistic Serial (PS)** mechanism. The project checks whether players can benefit from strategic misreporting of preferences by seeking **Pure Nash Equilibria** (PNE) with higher social welfare than the truthful profile.
 
 > **Special Thanks:**  
-> I would like to extend my gratitude to **Nick Mattei** for his help in perfecting this code.
+> I would like to extend my gratitude to **Ioannis Samoladas** and **Nick Mattei** for their help in perfecting this code.
 
 ---
 
